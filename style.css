@@ -1,0 +1,92 @@
+* {
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("blue\ BG.svg");
+    background-size: cover;
+}
+
+.login-txt {
+    font-size: 50px;
+    font-weight: 700;
+    color: #404040;
+}
+
+p {
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: #016396;
+}
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.white-bg {
+    background-color: white;
+    height: 85%;
+    width: 350;
+    min-width: 300px;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    
+    width: 80%;
+    margin: 50px 0px 50px 0px;
+}
+
+.input-wrapper {
+  position: relative;
+}
+
+.input-wrapper i {
+  position: absolute;
+  top: 32%;
+  left: 12px;               /* distance from left edge */
+  transform: translateY(-50%);
+  font-size: 1rem;
+  color: #016396;         
+  pointer-events: none;     /* click won’t reach the icon */
+}
+
+.input-wrapper input {
+  width: 100%;
+  padding: 6px 12px 6px 40px; 
+  box-sizing: border-box;
+  border-radius: 50px;
+  border: 2px solid #a6a6a6;
+  margin-bottom: 20px;
+}
+
+.login-btn {
+    margin-top: 20px;
+    padding: 6px 0px;
+    cursor: pointer;
+    font-weight: 700;
+    color: white;
+    background-color: #016396;
+    border: 2px solid #016396;
+    border-radius: 50px;
+    transition: .2s;
+}
+.login-btn:hover {
+    background-color: #167fb8;   
+    border: 2px solid #167fb8;
+}
